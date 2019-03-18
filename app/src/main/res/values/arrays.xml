@@ -13,4 +13,15 @@
         <item>微信</item>
         <item>银行卡</item>
     </string-array>
+
+
+    <string-array name="company">
+        <item>科技</item>
+        <item>文化</item>
+        <item>娱乐</item>
+        <item>运营</item>
+        <item>人力</item>
+        <item>装修</item>
+        <item>生产</item>
+    </string-array>
 </resources>

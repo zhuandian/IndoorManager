@@ -33,7 +33,8 @@
         </activity>
         <activity android:name=".business.login.LoginActivity" />
         <activity android:name=".business.login.UserRegisterActivity" />
-        <activity android:name=".business.PayActivity"></activity>
+        <activity android:name=".business.PayActivity" />
+        <activity android:name=".business.CompanyServeActivity"></activity>
     </application>
 
 </manifest>

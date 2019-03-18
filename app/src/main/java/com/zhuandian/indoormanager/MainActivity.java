@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.zhuandian.indoormanager.base.BaseActivity;
+import com.zhuandian.indoormanager.business.CompanyServeActivity;
 import com.zhuandian.indoormanager.business.PayActivity;
 
 import butterknife.ButterKnife;
@@ -36,6 +37,7 @@ public class MainActivity extends BaseActivity {
                 startActivity(new Intent(MainActivity.this, PayActivity.class));
                 break;
             case R.id.tv_business_service:
+                startActivity(new Intent(MainActivity.this, CompanyServeActivity.class));
                 break;
         }
     }
