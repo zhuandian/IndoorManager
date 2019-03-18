@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category">
+        <item>场地租金</item>
+        <item>水电费</item>
+        <item>物业管理费</item>
+        <item>民俗租赁费</item>
+    </string-array>
+
+
+    <string-array name="pay">
+        <item>支付宝</item>
+        <item>微信</item>
+        <item>银行卡</item>
+    </string-array>
+</resources>

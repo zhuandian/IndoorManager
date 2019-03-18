@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="80dp"
+    android:orientation="vertical"
+    tools:context=".business.PayActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="缴费类型" />
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/category_spiner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/category"
+        android:padding="10dp"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="支付方式" />
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/pay_spiner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/pay"
+        android:padding="10dp"
+        android:spinnerMode="dropdown" />
+
+    <EditText
+        android:id="@+id/et_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入缴费金额"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="20dp"
+        android:text="支付" />
+</LinearLayout>
