@@ -25,16 +25,27 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+            <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.MAIN" />-->
+
+            <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity android:name=".business.login.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".business.login.LoginActivity" />
         <activity android:name=".business.login.UserRegisterActivity" />
         <activity android:name=".business.PayActivity" />
-        <activity android:name=".business.CompanyServeActivity"></activity>
+        <activity android:name=".business.CompanyServeActivity" />
+        <activity android:name=".business.LocationActivity" />
+        <activity android:name=".business.gardenServer.MapActivity" />
+        <activity android:name=".business.gardenServer.PathActivity" />
+        <activity android:name=".business.gardenServer.DataGatherActivity" />
+        <activity android:name=".CompanyFeedBackActivity"></activity>
     </application>
 
 </manifest>

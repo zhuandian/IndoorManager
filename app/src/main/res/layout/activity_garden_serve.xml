@@ -5,11 +5,10 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
-
+    tools:context=".business.GardenServeActivity">
 
     <TextView
-        android:id="@+id/tv_location"
+        android:id="@+id/tv_data_gather"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginLeft="20dp"
@@ -18,11 +17,11 @@
         android:layout_marginBottom="5dp"
         android:background="@color/colorPrimary"
         android:gravity="center"
-        android:text="导航定位服务"
+        android:text="数据采集"
         android:textColor="#fff" />
 
     <TextView
-        android:id="@+id/tv_service"
+        android:id="@+id/tv_map"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginLeft="20dp"
@@ -31,11 +30,11 @@
         android:layout_marginBottom="5dp"
         android:background="@color/colorPrimary"
         android:gravity="center"
-        android:text="企业咨询"
+        android:text="定位功能"
         android:textColor="#fff" />
 
     <TextView
-        android:id="@+id/tv_pay"
+        android:id="@+id/tv_path"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginLeft="20dp"
@@ -44,20 +43,6 @@
         android:layout_marginBottom="5dp"
         android:background="@color/colorPrimary"
         android:gravity="center"
-        android:text="费用缴纳"
+        android:text="规划路径"
         android:textColor="#fff" />
-
-    <TextView
-        android:id="@+id/tv_business_service"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="5dp"
-        android:background="@color/colorPrimary"
-        android:gravity="center"
-        android:text="企业合作推荐"
-        android:textColor="#fff" />
-
 </LinearLayout>
